@@ -1,4 +1,3 @@
-
 .header {
     background-color: #222;
     height: 36px;
@@ -29,4 +28,9 @@
 
 .displayBlock {
     display: block;
+}
+
+.btn-bookShow {
+    float: right;
+    margin-right: 8px;
 }
