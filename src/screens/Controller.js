@@ -11,9 +11,9 @@ const Controller = () => {
         <Router>
             <div className="main-container">
                 <Route exact path="/" render = {(props) => <Home {...props} baseUrl = {baseUrl} />} />
-                <Route exact path="/movie/id" render = {(props) => <Details {...props} baseUrl = {baseUrl} />}/>
-                <Route exact path="/bookshow/id" render = {(props) => <BookShow {...props} baseUrl = {baseUrl} />}/>
-                <Route exact path="/confirm/id" render = {(props) => <Confirmation {...props} baseUrl = {baseUrl} />}/>
+                <Route exact path="/movie/:id" render = {(props) => <Details {...props} baseUrl = {baseUrl} />}/>
+                <Route exact path="/bookshow/:id" render = {(props) => <BookShow {...props} baseUrl = {baseUrl} />}/>
+                <Route exact path="/confirm/:id" render = {(props) => <Confirmation {...props} baseUrl = {baseUrl} />}/>
             </div>
         </Router>
     );
