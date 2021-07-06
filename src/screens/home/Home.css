@@ -37,3 +37,30 @@
     text-align: center;
     font-size: 1rem;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    margin: 16px;
+}
+
+.left {
+    width: 76%;
+}
+
+.right {
+    padding-top: 20px;
+    width: 24%;
+}
+
+.released-movie-grid-item {
+    margin: 15px;
+}
+
+.movie-pic {
+    height: 100%;
+    width: auto;
+}
+
