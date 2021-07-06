@@ -1,0 +1,32 @@
+
+.header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+.img-responsive {
+    animation: header-logo-spin infinite 8s linear;
+    height: 35px;
+    background: #ff7f7f;
+}
+
+@keyframes header-logo-spin {
+    from { transform: scaleX(-1); }
+}
+
+.btn-login {
+    float: right;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
